@@ -74,6 +74,7 @@ ios-light-mode-blue-red-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -88,6 +89,9 @@ ios-light-mode-blue-red-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - blue-red
@@ -163,6 +167,7 @@ ios-light-mode-blue-red:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -177,6 +182,9 @@ ios-light-mode-blue-red:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -252,6 +260,7 @@ ios-dark-mode-blue-red-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -266,6 +275,9 @@ ios-dark-mode-blue-red-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -341,6 +353,7 @@ ios-dark-mode-blue-red:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -355,9 +368,9 @@ ios-dark-mode-blue-red:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
-  ha-color-form-background: rgba(55, 55, 55, 0.0)
-  ha-color-form-background-hover: rgba(55, 55, 55, 0.1)
-  ha-color-form-background-disabled: rgba(55, 55, 55, 0.0)
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -433,6 +446,7 @@ ios-light-mode-dark-blue-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -447,6 +461,9 @@ ios-light-mode-dark-blue-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -522,6 +539,7 @@ ios-light-mode-dark-blue:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -536,6 +554,9 @@ ios-light-mode-dark-blue:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -611,6 +632,7 @@ ios-dark-mode-dark-blue-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -625,6 +647,9 @@ ios-dark-mode-dark-blue-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -700,6 +725,7 @@ ios-dark-mode-dark-blue:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -714,6 +740,9 @@ ios-dark-mode-dark-blue:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - dark-green
@@ -789,6 +818,7 @@ ios-light-mode-dark-green-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -803,6 +833,9 @@ ios-light-mode-dark-green-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - dark-green
@@ -878,6 +911,7 @@ ios-light-mode-dark-green:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -892,6 +926,9 @@ ios-light-mode-dark-green:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -967,6 +1004,7 @@ ios-dark-mode-dark-green-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -981,6 +1019,9 @@ ios-dark-mode-dark-green-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -1056,6 +1097,7 @@ ios-dark-mode-dark-green:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1070,6 +1112,9 @@ ios-dark-mode-dark-green:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - light-blue
@@ -1145,6 +1190,7 @@ ios-light-mode-light-blue-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1159,6 +1205,9 @@ ios-light-mode-light-blue-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - light-blue
@@ -1234,6 +1283,7 @@ ios-light-mode-light-blue:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1248,6 +1298,9 @@ ios-light-mode-light-blue:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -1323,6 +1376,7 @@ ios-dark-mode-light-blue-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1337,6 +1391,9 @@ ios-dark-mode-light-blue-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -1412,6 +1469,7 @@ ios-dark-mode-light-blue:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1426,6 +1484,9 @@ ios-dark-mode-light-blue:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - light-green
@@ -1501,6 +1562,7 @@ ios-light-mode-light-green-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1515,6 +1577,9 @@ ios-light-mode-light-green-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - light-green
@@ -1590,6 +1655,7 @@ ios-light-mode-light-green:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1604,6 +1670,9 @@ ios-light-mode-light-green:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1679,6 +1748,7 @@ ios-dark-mode-light-green-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1693,6 +1763,9 @@ ios-dark-mode-light-green-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1768,6 +1841,7 @@ ios-dark-mode-light-green:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1782,6 +1856,9 @@ ios-dark-mode-light-green:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - orange
@@ -1857,6 +1934,7 @@ ios-light-mode-orange-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1871,6 +1949,9 @@ ios-light-mode-orange-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - orange
@@ -1946,6 +2027,7 @@ ios-light-mode-orange:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -1960,6 +2042,9 @@ ios-light-mode-orange:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - orange
@@ -2035,6 +2120,7 @@ ios-dark-mode-orange-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2049,6 +2135,9 @@ ios-dark-mode-orange-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - orange
@@ -2124,6 +2213,7 @@ ios-dark-mode-orange:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2138,6 +2228,9 @@ ios-dark-mode-orange:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Light Mode Theme - red
@@ -2213,6 +2306,7 @@ ios-light-mode-red-alternative:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2227,6 +2321,9 @@ ios-light-mode-red-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Light Mode Theme - red
@@ -2302,6 +2399,7 @@ ios-light-mode-red:
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2316,6 +2414,9 @@ ios-light-mode-red:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#e5e5ea"
+  ha-tooltip-text-color: "#464a47"
 
 #
 # iOS Dark Mode Theme - red
@@ -2391,6 +2492,7 @@ ios-dark-mode-red-alternative:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2405,6 +2507,9 @@ ios-dark-mode-red-alternative:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"
 
 #
 # iOS Dark Mode Theme - red
@@ -2480,6 +2585,7 @@ ios-dark-mode-red:
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
   # Custom
+  mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
@@ -2494,3 +2600,6 @@ ios-dark-mode-red:
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
   ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: "#2c2c2e"
+  ha-tooltip-text-color: "#FFF"

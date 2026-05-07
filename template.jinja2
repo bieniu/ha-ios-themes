@@ -86,3 +86,7 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  ha-heading-card-title-font-size: 20px
+  # Tooltip fix for HA 2026.5+ (https://github.com/home-assistant/frontend/pull/30386)
+  ha-tooltip-background-color: {{ primary_background_color }}
+  ha-tooltip-text-color: {{ primary_text_color }}
