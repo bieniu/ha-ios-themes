@@ -58,3 +58,15 @@ markdown_code_background_color:
 code_editor_background_color:
   dark: '#161616'
   light: '#FFF'
+ha_switch_checked_background_color:
+  dark: rgba(48, 209, 88, 0.38)
+  light: rgba(52, 199, 89, 0.38)
+ha_switch_checked_background_color_hover:
+  dark: rgba(48, 209, 88, 0.5)
+  light: rgba(52, 199, 89, 0.5)
+ha_switch_background_color:
+  dark: rgba(255, 255, 255, 0.12)
+  light: rgba(0, 0, 0, 0.12)
+ha_switch_background_color_hover:
+  dark: rgba(255, 255, 255, 0.22)
+  light: rgba(0, 0, 0, 0.22)

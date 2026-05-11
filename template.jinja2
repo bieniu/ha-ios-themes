@@ -62,6 +62,19 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: {{ switch_checked_track_color }}  # from Apple systemGreen {{ which }} mode
   switch-checked-button-color: "#FFF"
+  # Restore pre-2026.5 switch look (colours only — geometry needs card-mod)
+  ha-switch-checked-background-color: {{ ha_switch_checked_background_color }}
+  ha-switch-checked-thumb-background-color: {{ primary_color }}
+  ha-switch-checked-border-color: transparent
+  ha-switch-checked-thumb-border-color: transparent
+  ha-switch-checked-background-color-hover: {{ ha_switch_checked_background_color_hover }}
+  ha-switch-checked-thumb-background-color-hover: {{ primary_color }}
+  ha-switch-background-color: {{ ha_switch_background_color }}
+  ha-switch-thumb-background-color: "#FFFFFF"
+  ha-switch-border-color: transparent
+  ha-switch-thumb-border-color: transparent
+  ha-switch-background-color-hover: {{ ha_switch_background_color_hover }}
+  ha-switch-thumb-background-color-hover: "#FFFFFF"
   # Other
   paper-dialog-background-color: {{ paper_dialog_background_color }}  # e.g., background of more-info
   paper-item-icon-color: {{ paper_item_icon_color }}  # also should mini-media-player icon white (but doesn't work by itself)
